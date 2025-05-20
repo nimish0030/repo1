@@ -1,6 +1,6 @@
 const jwt = require("jsonwebtoken");
 require('dotenv').config()
-
+//fvbdjg
 module.exports = function (req, res, next) {
   const authHeader = req.header("Authorization").split(" ");
   const token = authHeader[1];
